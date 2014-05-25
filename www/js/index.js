@@ -40,11 +40,12 @@ var app = {
         var parentElement = document.getElementById(id);
         var listeningElement = parentElement.querySelector('.listening');
         var receivedElement = parentElement.querySelector('.received');
+        var messageElement = parentElement.querySelector('.message');
 
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
+	messageElement.innerText = "Device cordova = " + device.cordova;
 
         console.log('Received Event: ' + id);
-        console.log('Properties Event: ' + element.innerHTML);
     }
 };

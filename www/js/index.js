@@ -44,7 +44,7 @@ var app = {
 
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
-	messageElement.innerText = "Device cordova = " + device.cordova;
+	messageElement.textContent = 'Device model = ' + device.model;
 
         console.log('Received Event: ' + id);
     }

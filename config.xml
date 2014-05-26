@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.split.WhoAmI" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>HelloCordova</name>
+    <description>
+	NFC demo app
+    </description>
+    <author email="dev@split.io" href="http://split.io">
+        split.io team
+    </author>
+    <content src="WhoAmI/index.html" />
+    <access origin="*" />
+</widget>
